@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+.contenido {
+    background: linear-gradient(to right, gold,blue,gold, white,gold, red, gold);
+}
+
+.sala, .fecha {
+    border: 1px solid;
+    padding-top: 8px;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 10px;
+    margin-top: -11px;
+    text-align: center;
+    color: white;
+}
+.btnmenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    background-color: #151A32;
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    background-color: #151A32;
+    color: white;
+}
+
+#search {
+    background-color: white;
+    border-style: none;
+    border-radius: 25px;
+    height: 25px;
+    padding-left: 10px;
+    color: black;
+}
+
+#search:focus {
+    background-color: rgb(58, 76, 131);
+}
+
+#btnmenu{
+    float:left;
+    width:60px ;
+    padding: 5px;
+    border: 1px solid blue ;
+}
+.titulo{
+    float: left;
+    width:auto;
+    padding:fit-content;
+    margin :0px 25% auto 25%;
+}
+#formulario{
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 18px;
+    background-color: lightgray;
+    border: 2px dashed blue;
+}
+#formulario h1{
+    text-align: center;
+}
+#formulario button{
+    padding: 10px;
+    margin: 10px 25% auto 25%;
+    border: 1px solid black;
+    width: 250px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+#formulario button:hover{
+    background-color: aqua;
+    color: white;
+}
+.input-control{
+    display:contents;
+    flex-direction: column;
+}
+.input-control input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 10px;
+    
+    width: 95%;
+}
+textarea{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 10px;
+    width: 95%;
+    
+}
+.input-control input:focus{
+    outline: 0;
+}
+
+.check{
+    text-align: center;
+}
+.check:hover{
+    background-color: springgreen;
+}
+#desplegable select{
+    border: 2px solid #f0f0f0;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    width: 500px;
+}
+.input-control.success input {
+    border-color: #09c372;
+}
+.input-control.success textarea {
+    border-color: #09c372;
+}
+.input-control.error{
+    color: #ff3860;
+    font-size: 12px;
+    height: 30px;
+}
+.input-control.error input {
+    border-color: #ff3860;
+    height: 30px;
+    
+
+}
+.input-control.error textarea {
+    border-color: #ff3860;
+    
+   
+}
+a{
+    font-size: 18px;
+    background-color: aliceblue;
+}
+a:hover{
+    background-color: #ffff00;
+    color: #0ff;
+}
